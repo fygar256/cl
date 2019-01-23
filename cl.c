@@ -11,7 +11,7 @@
 #include	<string.h>
 #include	<ctype.h>
 
-char defaultdic[]="/home/gar/user/EIJIRO-SAMPLE-1442.TXT";
+char defaultdic[]="/usr/share/dic/ejdic-hand-utf8-words.txt";
 FILE *fp,*so;
 
 void wayout() {
@@ -107,3 +107,4 @@ int	main(int argc,char *argv[])
 		}
 	wayout();
 }
+
